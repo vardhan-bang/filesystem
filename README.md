@@ -8,7 +8,7 @@ A simple FAT (File Allocation Table) based File System implementation in C.
     - sync_fs() - Save files to drive
     - allocate_file(char *name[8]) - Create new file (Max name size: 8 characters)
     - set_filesize(int filenum, int size) - Allocate blocks to a file
-    - write_bytes(int filenum, int pos, char *data) - Write a byte to the file at specified position
+    - write_byte(int filenum, int pos, char *data) - Write a byte to the file at specified position
     - print_fs() - Display info about the file system
 
 2. Build with `make`
